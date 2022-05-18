@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Hachi+Maru+Pop&family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Grape+Nuts&display=swap');
+body{
+color:#eee899;
+background-color:#5d4775;
+font-family: 'Hachi Maru Pop', cursive;
+}
+.states{
+
+  color:#eee899;
+  background-color:#836b9c;
+  font-family: 'Hachi Maru Pop', cursive;
+  text-align: center;
+  margin: 20px;
+  padding: 70px;
+  border:10px double #401f64d3;
+  border-radius: 70px;
+}
+a{
+text-decoration: none;
+color:#eee899;
+}
+
+.grid-container {
+display: grid;
+padding: 23px;
+color:#eee899;
+background-color: #826ba1 ;
+gap:10px;
+font-family: 'Hachi Maru Pop', cursive;
+}
+.grid-item{
+background-color: #9686ac;
+text-align: center;
+font-family: 'Hachi Maru Pop', cursive;
+font-size: x-large;
+padding: 15px;
+height:150px;
+padding-top: 150px;
+}
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    height:150px;
+    padding-top: 150px;
+  }
+  .item1 a , .item2 a , .item3 a, .item4 a ,.item5 a , .item6 a , .item7 a , .item8 a , .item9 a, .item10 a, .item11 a , .item12 a , .item13 a, .item14 a, .item15 a , .item16 a , .item17 a , .item18 a , .item19 a, .item20 a, .item21 a , .item22 a , .item23 a, .item24 a, .item25 a , .item26 a , .item27 a , .item28 a , .item29 a, .item30 a, .item31 a , .item32 a , .item33 a, .item34 a, .item35 a , .item36 a , .item37 a , .item38 a , .item39 a, .item40 a, .item41 a , .item42 a , .item43 a, .item44 a, .item45 a , .item46 a , .item47 a , .item48 a , .item49 a ,.item50 a{
+background-color: #eee899;
+border: 5px solid #e2cf65;
+font-size: medium;
+color: #cead66;
+padding: 10px;
+font-family: 'Gochi Hand', cursive;
+
+  }
+  .item100 a{
+    background-color: #eee899;
+border: 5px solid #e2cf65;
+font-size: medium;
+color: #cead66;
+padding: 10px;
+font-family: 'Gochi Hand', cursive;
+  }
+  .item1 a:hover, .item2 a:hover , .item3 a:hover, .item4 a:hover .item5 a:hover , .item6 a:hover , .item7 a:hover , .item8 a:hover , .item9 a:hover .item10 a:hover, .item11 a:hover, .item12 a:hover , .item13 a:hover, .item14 a:hover .item15 a:hover, .item16 a:hover , .item17 a:hover , .item18 a:hover , .item19 a:hover .item20 a:hover, .item21 a:hover , .item22 a:hover , .item23 a:hover, .item24 a:hover .item25 a:hover , .item26 a:hover , .item27 a:hover , .item28 a:hover , .item29 a:hover .item30 a:hover, .item31 a:hover , .item32 a:hover , .item33 a:hover, .item34 a:hover .item35 a:hover , .item36 a:hover , .item37 a:hover , .item38 a:hover , .item39 a:hover .item40 a:hover, .item41 a:hover , .item42 a:hover , .item43 a:hover, .item44 a:hover .item45 a:hover , .item46 a:hover , .item47 a:hover , .item48 a:hover, .item49 a:hover .item50 a:hover {
+
+background-color: #9686ac;
+border:5px solid #826ba1 ;
+font-size: large;
+color: #402958;
+padding: 15px;
+font-family: 'Grape Nuts', cursive;
+
+  }
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    height:478px;
+    padding-top: 50px;
+    padding-bottom: 110px;
+  }
+  
+  .item2 img, .item7 img, .item12 img, .item18 img , .item22 img, .item27 img, .item32 img, .item37 img, .item42 img, .item47 img{
+
+    border: 5px solid #5d4775;
+    
+
+  }
+  
+  .item5 {
+    grid-column: 1 / span 3;
+    height:120px;
+    padding-top: 50px;
+    grid-row: 3;
+  }
+  .item6 {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    height:150px;
+    padding-top: 150px;
+  }
+  
+  .item7 {
+    grid-column: 3;
+    grid-row: 4 / span 2;
+    height:478px;
+    padding-top: 50px;
+    padding-bottom: 110px;
+  }
+  
+  .item10 {
+    grid-column: 1 / span 3;
+    grid-row: 6;
+    height:120px;
+    padding-top: 50px;
+  }
+  .item11 {
+    height:150px;
+    padding-top: 150px;
+    grid-column: 1 / span 2;
+    grid-row: 7;
+  }
+  
+  .item12 {
+    grid-column: 3;
+    grid-row: 7 / span 2;
+    height:478px;
+    padding-top: 50px;
+    padding-bottom: 110px;
+  }
+  
+  .item15 {
+    grid-column: 1 / span 3;
+    grid-row: 9;
+    height:120px;
+    padding-top: 50px;
+  }
+  .item16 {
+    height:150px;
+    padding-top: 150px;
+    grid-column: 1 / span 2;
+    grid-row: 10;
+  }
+  
+  .item17 {
+    grid-column: 3;
+    grid-row: 10 / span 2;
+    height:478px;
+    padding-top: 50px;
+    padding-bottom: 110px;
+  }
+  
+  .item20 {
+    grid-column: 1 / span 3;
+    grid-row: 12;
+    height:120px;
+    padding-top: 50px;
+  }
+  .item21 {
+    height:150px;
+    padding-top: 150px;
+    grid-column: 1 / span 2;
+    grid-row: 13;
+  }
+  
+  .item22 {
+    grid-column: 3;
+    grid-row: 13 / span 2;
+    height:478px;
+    padding-top: 150px;
+  }
+  
+  .item25 {
+    grid-column: 1 / span 3;
+    grid-row: 15;
+    height:120px;
+    padding-top: 50px;
+  }
+  .item26 {
+    height:150px;
+    padding-top: 150px;
+    grid-column: 1 / span 2;
+    grid-row: 16;
+  }
+  
+  .item27 {
+    grid-column: 3;
+    grid-row: 16 / span 2;
+    height:530px;
+    padding-top: 100px;
+  }
+  
+  .item30 {
+    grid-column: 1 / span 3;
+    grid-row: 18;
+    height:120px;
+    padding-top: 50px;
+  }
+  .item31 {
+    height:150px;
+    padding-top: 150px;
+    grid-column: 1 / span 2;
+    grid-row: 19;
+  }
+  
+  .item32 {
+    grid-column: 3;
+    grid-row: 19 / span 2;
+    height:530px;
+    padding-top: 100px;
+  }
+  
+  .item35 {
+    grid-column: 1 / span 3;
+    grid-row: 21;
+    height:120px;
+    padding-top: 50px;
+  }
+  .item36 {
+    height:150px;
+    padding-top: 150px;
+    grid-column: 1 / span 2;
+    grid-row: 22;
+  }
+  
+  .item37 {
+    grid-column: 3;
+    grid-row: 22 / span 2;
+    height:530px;
+    padding-top: 100px;
+  }
+  
+  .item40 {
+    height:120px;
+    padding-top: 50px;
+    grid-column: 1 / span 3;
+    grid-row: 24;
+  }
+  .item41 {
+    height:150px;
+    padding-top: 150px;
+    grid-column: 1 / span 2;
+    grid-row: 22;
+  }
+  
+  .item42  {
+      grid-column: 3;
+      grid-row: 22 / span 2;
+      height:530px;
+      padding-top: 100px;
+  }
+  
+  .item45 {
+    height:120px;
+    padding-top: 50px;
+    grid-column: 1 / span 3;
+    grid-row: 24;
+  }
+  .item46 {
+    height:150px;
+    padding-top: 150px;
+    grid-column: 1 / span 2;
+    grid-row: 28;
+  }
+  
+  .item47 {
+    grid-column: 3;
+    grid-row: 28 / span 2;
+    height:530px;
+    padding-top: 100px;
+  }
+  
+  .item50 {
+
+
+    height:120px;
+    padding-top: 50px;
+    grid-column: 1 / span 3;
+    grid-row: 29;
+
+
+  }
+  
